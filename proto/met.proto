@@ -1,0 +1,12 @@
+﻿syntax = "proto3";
+package mda;
+
+message MET_Signal {
+	string DeviceId = 1;
+	float Temp = 2;
+	float Humidity =3;
+	float WindDirection =4;
+	float WindSpeed =5;
+	float Visivility =6;
+	string TimeStamp = 7;
+}
